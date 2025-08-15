@@ -16,6 +16,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded")
 
+st.title("Individual and Group Projects Key Plots - Kiet Hoa")
+
 st.markdown(
     """ 
     This dashboard displays the key plots from the Individual and Group Projects from ENVECON 105 
@@ -25,7 +27,7 @@ st.markdown(
 )
 
 with st.sidebar:
-    st.title("Outputs from the Individual and the Group Projects")
+    st.title("Please select a country")
     country_list = ["United States of America", "Vietnam", "World"]
     selected_country = st.selectbox('Select a country', country_list)
 
