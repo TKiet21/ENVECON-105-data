@@ -38,6 +38,7 @@ if selected_country == "United States of America":
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/CO2_temp_US.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/US_emissions_temp.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/CO2_temp_US_scaled.png?raw=true")
+    st.write("Summary Plot for the USA:")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/summary_plot_indiv.png?raw=true")
 
 elif selected_country == "Vietnam":
@@ -47,6 +48,7 @@ elif selected_country == "Vietnam":
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/CO2_temp_VN.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/VN_emissions_temp.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/CO2_temp_VN_scaled.png?raw=true")
+    st.write("Summary Plot for Vietnam:")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/summary_plot_group.png?raw=true")
 
 else:
