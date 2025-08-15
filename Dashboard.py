@@ -32,6 +32,7 @@ with st.sidebar:
     selected_country = st.selectbox('Select a country', country_list)
 
 if selected_country == "United States of America":
+    st.write("**Plots for the USA**")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/emissions_per_yr_indiv.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/dist_indiv.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/CO2_temp_US.png?raw=true")
@@ -40,6 +41,7 @@ if selected_country == "United States of America":
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/US%20plots/summary_plot_indiv.png?raw=true")
 
 elif selected_country == "Vietnam":
+    st.write("**Plots for Vietnam**")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/emissions_per_yr_group.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/dist_group.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/CO2_temp_VN.png?raw=true")
@@ -48,6 +50,7 @@ elif selected_country == "Vietnam":
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/VN%20plots/summary_plot_group.png?raw=true")
 
 else:
+    st.write("**Plots for the World**")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/World%20plots/CO2_world.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/World%20plots/CO2_per_capita_world.png?raw=true")
     st.image("https://github.com/TKiet21/ENVECON-105-data/blob/main/World%20plots/top_10_line_indiv.png?raw=true")
